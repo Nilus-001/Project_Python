@@ -66,10 +66,6 @@ class Library:
             if book.get_isbn() == ele.get_isbn():
                 raise LibraryError("Book with this ISBN already exists in the library.", 4089)
 
-
-
-
-
         self.list_of_books.append(book)
 
 
