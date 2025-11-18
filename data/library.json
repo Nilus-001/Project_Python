@@ -1,0 +1,36 @@
+{
+    "books": [
+        {
+          "title": "86",
+          "author": "Asato Asato",
+          "isbn": "4384646984123"
+        },
+        {
+            "title": "Maze Runner",
+            "author": "James Dashner",
+            "isbn": "9780439023528"
+        },
+        {
+          "title": "Harry Potter ",
+          "author": "J.K. Rowling",
+          "isbn": "9780747532699",
+          "file_scale": 1652
+        },
+        {
+          "title": "The Hobbit",
+          "author": "J.R.R. Tolkien",
+          "isbn": "9780261102217"
+        },
+        {
+            "title": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "isbn": "9781451673319"
+        },
+        {
+            "title": "test",
+            "author": "moi",
+            "isbn": "007"
+        }
+    ],
+    "last_updated": "2024-18-11T13:05:37Z"
+}
