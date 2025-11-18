@@ -4,7 +4,7 @@ from src.exceptions import LibraryError
 
 # ------------------------------------ Book ---------------------------------------------
 class Book:
-    all_books = []
+
 
     def __init__(self, title:str, author:str, isbn="NA"):
         self._title = title
