@@ -1,36 +1,88 @@
 {
     "books": [
         {
-          "title": "86",
-          "author": "Asato Asato",
-          "isbn": "4384646984123"
-        },
-        {
-            "title": "Maze Runner",
-            "author": "James Dashner",
-            "isbn": "9780439023528"
-        },
-        {
-          "title": "Harry Potter ",
-          "author": "J.K. Rowling",
-          "isbn": "9780747532699",
-          "file_scale": 1652
-        },
-        {
-          "title": "The Hobbit",
-          "author": "J.R.R. Tolkien",
-          "isbn": "9780261102217"
-        },
-        {
-            "title": "Fahrenheit 451",
-            "author": "Ray Bradbury",
-            "isbn": "9781451673319"
-        },
-        {
             "title": "test",
             "author": "moi",
-            "isbn": "007"
+            "isbn": "0000000000005",
+            "borrow_by": {
+                "1551208983120": "2025-12-05 16:58:55.756174"
+            },
+            "data_history": {
+                "2025-11-21 16:58:53.753917": " borrowed by ('nils', 1551208398192)",
+                "2025-11-21 16:58:54.755136": " wanted by ('Come', 1551208983120)",
+                "2025-11-21 16:58:55.255661": " returned by ('nils', 1551208398192)",
+                "2025-11-21 16:58:55.756174": " borrowed by ('Come', 1551208983120)"
+            },
+            "borrow_queue": [
+                1551208983120
+            ],
+            "comment_list": [
+                [
+                    "nils",
+                    "2025-11-21 16:58:55.255661",
+                    "tres bon livre"
+                ]
+            ],
+            "note": {
+                "('nils', 1551208398192)": 10
+            },
+            "category": "roman",
+            "book_number": null
+        },
+        {
+            "title": "test n2",
+            "author": "encore moi",
+            "isbn": "0000000000008",
+            "borrow_by": {
+                "1551208983120": "2025-12-05 16:58:56.256882"
+            },
+            "data_history": {
+                "2025-11-21 16:58:56.256882": " borrowed by ('Come', 1551208983120)"
+            },
+            "borrow_queue": [],
+            "comment_list": [],
+            "note": {},
+            "category": "sciences",
+            "book_number": null
         }
     ],
-    "last_updated": "2024-18-11T13:05:37Z"
+    "users": [
+        {
+            "id": 1551208398192,
+            "username": "nils",
+            "mdp": 672952300121725904,
+            "admin": false,
+            "subscription": "basic",
+            "book_borrow": {},
+            "data_history": {
+                "2025-11-21 16:58:53.753917": "('test', 'moi', '0000000000005') was borrowed"
+            },
+            "month_max_borrow_achieve": false,
+            "month_max_borrow_reset": null,
+            "wanted": [],
+            "debt": 0
+        },
+        {
+            "id": 1551208983120,
+            "username": "Come",
+            "mdp": -5012107035775806303,
+            "admin": false,
+            "subscription": "premium",
+            "book_borrow": {
+                "0000000000005": "2025-12-05 16:58:55.756174",
+                "0000000000008": "2025-12-05 16:58:56.256882",
+                "0000000700008": "2025-12-05 16:58:56.757582"
+            },
+            "data_history": {
+                "2025-11-21 16:58:54.755136": "('test', 'moi', '0000000000005') was put in wanted list",
+                "2025-11-21 16:58:55.756174": "('test', 'moi', '0000000000005') was borrowed",
+                "2025-11-21 16:58:56.256882": "('test n2', 'encore moi', '0000000000008') was borrowed",
+                "2025-11-21 16:58:56.757582": "('test n3', 'encore moi', '0000000700008') was borrowed"
+            },
+            "month_max_borrow_achieve": false,
+            "month_max_borrow_reset": null,
+            "wanted": [],
+            "debt": 0
+        }
+    ]
 }
